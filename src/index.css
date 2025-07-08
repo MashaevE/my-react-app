@@ -16,3 +16,5 @@
 @import "Component/Main/Book/Book.module.css";
 @import "Component/Main/Print/Print.module.css";
 @import "Component/Footer/Footer.module.css";
+
+@import "Component/Card/Card.module.css";
