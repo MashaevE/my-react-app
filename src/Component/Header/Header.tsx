@@ -1,7 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import { NavLink } from "react-router";
+import { Form } from "../Form/Form";
 
 export const Header = (): React.ReactElement => {
+        const [isFormOpen, setIsFormOpen] = useState(false);
+
+    const openForm = () => setIsFormOpen(true);
+    const closeForm = () => setIsFormOpen(false);
     return ( 
             <header className="header container">
         <NavLink to = "/" ><img src="img/logo.png" alt="Логотип" className="header__logo-img"/></NavLink>
@@ -23,8 +28,10 @@ export const Header = (): React.ReactElement => {
                 </li>
             </ul>
 
-            <button className="header__nav-button button-contact">Свяжитесь с нами</button>
+            <button className="header__nav-button button-contact"  onClick={openForm}>Свяжитесь с нами</button>
         </nav>
+
+        {isFormOpen && <Form onClose={closeForm} />}
     </header>
     )
 }

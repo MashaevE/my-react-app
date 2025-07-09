@@ -23,3 +23,11 @@
 /*Страница*/
 @import "Pages/NotFoundPage/NotFoundPage.module.css";
 @import "Pages/CardPage/CardPage.module.css";
+
+@import "Component/Preloader/Preloader.module.css";
+@import "Component/Form/Form.module.css";
+
+@import "Component/Slider/TestimonicalSlider/TestimonicalSlider.module.css";
+@import "Component/Slider/PortfolioSlider/PortfolioSlider.module.css";
+@import 'swiper/css';
+@import 'swiper/css/scrollbar';

@@ -1,7 +1,7 @@
 .testimonial {
     font-family: "Proxima Nova", sans-serif;
     display: flex;
-    align-items: center;
+    align-items: baseline;
 
     margin-top: 248px;
 }
@@ -42,19 +42,6 @@
     margin-top: 30px;
 }
 
-.card-Mike{
-    display: none;
-}
-
-.card__content{
-    display: flex;
-    flex-direction: row;
-}
-
-.testimonial__icon-img{
-    width: 70px;
-    height: 70px;
-}
 
 @media (max-width:1366px){
     .testimonial__title{
@@ -63,17 +50,6 @@
 
     .testimonial__content{
         margin-right: 0;
-    }
-
-    .testimonial-card-1{
-        width: 638px;
-    }
-    .testimonial__icon-img{
-        width: 72px;
-        height: 72px;
-    }
-    .testimonial__card-description{
-        font-size: 18px;
     }
 }
 
@@ -85,7 +61,5 @@
         font-size: 40px;
     }
 
-    .testimonial-card-1{
-        width: 488px;
-    }
+   
 }
