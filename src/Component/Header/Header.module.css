@@ -5,6 +5,15 @@
     align-items: center;
 
     margin-top: 36px;
+
+    background: #3674B5;
+}
+
+.header__logo-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transform: translate(2px,2px);
 }
 
 .header__nav {
@@ -28,7 +37,7 @@
     font-size: 14px;
     font-weight: 400;
 
-    color: #2F2F2F;
+    color: #FFFFFF;
 
     text-decoration: none;
 }
@@ -43,7 +52,7 @@
     border-radius: 12px;
 
     color: #FFFFFF;
-    background-color: #E92129;
+    background-color: #578FCA;
 
     cursor: pointer;
 }

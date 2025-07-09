@@ -5,19 +5,19 @@ export const Print = (): React.ReactElement => {
         <section className="print container">
             <div className="print__img-list">
                 <div className="print__img-block">
-                    <img src="img/iso.png" alt="ISO" className="print__img"/>
+                    <img src="img/karelia-fon.png" alt="Карелия фон" className="print__img"/>
                 </div>
                 <div className="print__img-block">
-                    <img src="img/iso.png" alt="ISO" className="print__img"/>
+                    <img src="img/rostov-fon.png" alt="Ростов-на-Дону фон" className="print__img"/>
                 </div>
                 <div className="print__img-block">
-                    <img src="img/pakistan.png" alt="Пакестан" className="print__img"/>
+                    <img src="img/enisei-fon.png" alt="Енисей фон" className="print__img"/>
                 </div>
                 <div className="print__img-block">
-                    <img src="img/pasha.png" alt="Паша" className="print__img"/>
+                    <img src="img/nn-fon.png" alt="Нижний новгород фон" className="print__img"/>
                 </div>
                 <div className="print__img-block">
-                    <img src="img/secp.png" alt="Secp" className="print__img"/>
+                    <img src="img/cheboksar-fon.png" alt="Чебоксары фон" className="print__img"/>
                 </div>
             </div>
         </section>

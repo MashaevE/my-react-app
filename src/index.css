@@ -12,7 +12,7 @@
 @import "Component/Main/Service/Service.module.css";
 @import "Component/Main/Portfolio/Portfolio.module.css";
 @import "Component/Main/Company/Company.module.css";
-@import "Component/Main/Testimonical/Testimonical.module.css";
+@import "Component/Main/Reviews/Reviews.module.css";
 @import "Component/Main/Book/Book.module.css";
 @import "Component/Main/Print/Print.module.css";
 @import "Component/Footer/Footer.module.css";
@@ -27,7 +27,7 @@
 @import "Component/Preloader/Preloader.module.css";
 @import "Component/Form/Form.module.css";
 
-@import "Component/Slider/TestimonicalSlider/TestimonicalSlider.module.css";
+@import "Component/Slider/ReviewsSlider/ReviewsSlider.module.css";
 @import "Component/Slider/PortfolioSlider/PortfolioSlider.module.css";
 @import 'swiper/css';
 @import 'swiper/css/scrollbar';

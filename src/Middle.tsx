@@ -5,7 +5,7 @@ import { Company } from "./Component/Main/Company/Company"
 import { Portfolio } from "./Component/Main/Portfolio/Portfolio"
 import { Print } from "./Component/Main/Print/Print"
 import { Service } from "./Component/Main/Service/Service"
-import { Testimonical } from "./Component/Main/Testimonical/Testimonical"
+import { Reviews } from "./Component/Main/Reviews/Reviews"
 
 export const Middle = (): React.ReactElement => {
     return (
@@ -14,7 +14,7 @@ export const Middle = (): React.ReactElement => {
             <Service />
             <Portfolio />
             <Company />
-            <Testimonical />
+            <Reviews />
             <Book />
             <Print />
         </>
