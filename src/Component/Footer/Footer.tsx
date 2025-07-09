@@ -28,10 +28,10 @@ export const Footer = (): React.ReactElement => {
                 <div className="footer__info">
                     <nav className="footer__nav-list">
                         <ul className="footer__list">
-                            <li className="footer__list-item"><a href="#" className="footer__item-link">О нас</a></li>
-                            <li className="footer__list-item"><a href="#" className="footer__item-link">Сервисы</a></li>
-                            <li className="footer__list-item"><a href="#" className="footer__item-link">Портфолио</a></li>
-                            <li className="footer__list-item"><a href="#" className="footer__item-link">Отзывы</a></li>
+                            <li className="footer__list-item"><NavLink to="/" className="footer__item-link">О нас</NavLink></li>
+                            <li className="footer__list-item"><NavLink to="/" className="footer__item-link">Сервисы</NavLink></li>
+                            <li className="footer__list-item"><NavLink to="/" className="footer__item-link">Портфолио</NavLink></li>
+                            <li className="footer__list-item"><NavLink to="/" className="footer__item-link">Отзывы</NavLink></li>
                         </ul>
                     </nav>
                     <div className="footer__blank">

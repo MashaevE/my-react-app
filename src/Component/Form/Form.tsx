@@ -18,7 +18,7 @@ export const Form = ({ onClose }: FormProps): React.ReactElement => {
     return (
         <div className="modal" onClick={onClose}>
             <form className="form" onClick={handleFormClick} onSubmit={handleSubmit}>
-                <h2 className="form-title">Зарегистрироваться</h2>
+                <h2 className="form-title">Записаться</h2>
                 <div className="form__content">
                     <label htmlFor="name" className="form__contnent-label">Имя</label>
                     <input

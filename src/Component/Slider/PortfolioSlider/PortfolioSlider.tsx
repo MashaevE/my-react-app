@@ -18,7 +18,7 @@ export const PortfolioSlider = (): React.ReactElement => {
                 </SwiperSlide>
 
                 <SwiperSlide className="swiper-slide">
-                    <img src="img/room.png" alt="Кухня" className="portfolio__img portfolio__kitchen-img" />
+                    <img src="img/kitchen.png" alt="Кухня" className="portfolio__img portfolio__kitchen-img" />
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
                     <img src="img/room.png" alt="Комната" className="portfolio__img portfolio__room-img" />
