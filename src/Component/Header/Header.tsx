@@ -9,7 +9,7 @@ export const Header = (): React.ReactElement => {
     const closeForm = () => setIsFormOpen(false);
     return ( 
             <header className="header container">
-        <NavLink to = "/" ><img src="img/logo.png" alt="Логотип" className="header__logo-img"/></NavLink>
+        <NavLink to = "/" ><img src="img/Logo.png" alt="Логотип" className="header__logo-img"/></NavLink>
         <nav className="header__nav">
 
             <ul className="header__list">
@@ -17,8 +17,7 @@ export const Header = (): React.ReactElement => {
                     <NavLink to="/" className="header__item-link">О нас</NavLink>
                 </li>
                 <li className="header__list-item">
-                    <NavLink to="/" className="header__item-link">ИТ-услуги</NavLink>
-                    <img src="img/checkMark.png" alt="Подтверждение" className="header__item-img"/>
+                    <NavLink to="/" className="header__item-link">Сервисы</NavLink>
                 </li>
                 <li className="header__list-item">
                     <NavLink to="/" className="header__item-link">Портфолио</NavLink>

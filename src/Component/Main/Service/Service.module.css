@@ -14,7 +14,7 @@
 
 
     height: 320px;
-    background-color: #000000;
+    background-color: #121A2D;
 }
 
 .service__circle {
@@ -23,7 +23,7 @@
     width: 418px;
     height: 418px;
 
-    background: #E4252C;
+    background: #578FCA;
     mix-blend-mode: screen;
 
     filter: blur(248px);
@@ -55,7 +55,7 @@
     font-weight: 800;
     font-size: 80px;
 
-    color: #E92129;
+    color: #3674B5;
 }
 
 .service__card-container{

@@ -4,12 +4,11 @@
     height: 173px;
     margin-top: 195px;
     
-    background: #000000;
 }
 
 .company__img-list{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     flex-grow: 1;
@@ -18,7 +17,9 @@
 }
 
 .company__img{
-    transform: translateX(-20px);
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
 }
 
 @media (max-width:1366px){

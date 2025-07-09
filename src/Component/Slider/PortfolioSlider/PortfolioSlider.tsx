@@ -14,14 +14,14 @@ export const PortfolioSlider = (): React.ReactElement => {
         >
             <div className="swiper-wrapper">
                 <SwiperSlide className="swiper-slide">
-                    <img src="img/game.png" alt="Игра" className="portfolio__img portfolio__game-img" />
+                    <img src="img/layner.png" alt="Лайнер" className="portfolio__img portfolio__layner-img" />
                 </SwiperSlide>
 
                 <SwiperSlide className="swiper-slide">
-                    <img src="img/bank.png" alt="Банк" className="portfolio__img portfolio__bank-img" />
+                    <img src="img/kitchen.png" alt="Кухня" className="portfolio__img portfolio__kitchen-img" />
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                    <img src="img/soider.png" alt="Сайт" className="portfolio__img portfolio__soider-img" />
+                    <img src="img/room.png" alt="Комната" className="portfolio__img portfolio__room-img" />
                 </SwiperSlide>
             </div>
         </Swiper>

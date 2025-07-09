@@ -18,7 +18,7 @@ export const Form = ({ onClose }: FormProps): React.ReactElement => {
     return (
         <div className="modal" onClick={onClose}>
             <form className="form" onClick={handleFormClick} onSubmit={handleSubmit}>
-                <h2 className="form-title">Зарегистрироваться</h2>
+                <h2 className="form-title">Записаться</h2>
                 <div className="form__content">
                     <label htmlFor="name" className="form__contnent-label">Имя</label>
                     <input
@@ -28,12 +28,12 @@ export const Form = ({ onClose }: FormProps): React.ReactElement => {
                         id="name"
                         required
                     />
-                    <label htmlFor="email" className="form__contnent-label">Почта</label>
+                    <label htmlFor="phone" className="form__contnent-label">Номер</label>
                     <input
-                        type="email"
-                        placeholder="Почта"
+                        type="phone"
+                        placeholder="Телефон"
                         className="form__content-input"
-                        id="email"
+                        id="phone"
                         required
                     />
                 </div>
@@ -42,7 +42,7 @@ export const Form = ({ onClose }: FormProps): React.ReactElement => {
                         type="submit"
                         className="form__button form__button-submit"
                     >
-                        Зарегистрироваться
+                        Записаться
                     </button>
                     <button
                         type="button"
