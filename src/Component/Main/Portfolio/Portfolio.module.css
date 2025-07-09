@@ -37,6 +37,8 @@
 
     background: #578FCA;
     color: white;
+
+    cursor:pointer;
 }
 
 .portfolio__description {

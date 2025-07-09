@@ -16,7 +16,6 @@
 }
 
 .footer__logo {
-    position: absolute;
     width: 150px;
     height: 150px;
     
@@ -24,6 +23,11 @@
 
     transform: translateY(-220px);
 }
+
+.footer__logo-content{
+    position: absolute;
+}
+
 
 .footer__contacts {
     display: flex;
@@ -126,6 +130,7 @@
 
     background: #27270E;
 }
+
 
 .footer__social__network-block {
     display: flex;
