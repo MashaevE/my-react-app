@@ -17,4 +17,9 @@
 @import "Component/Main/Print/Print.module.css";
 @import "Component/Footer/Footer.module.css";
 
+/*Карточки*/
 @import "Component/Card/Card.module.css";
+
+/*Страница*/
+@import "Pages/NotFoundPage/NotFoundPage.module.css";
+@import "Pages/CardPage/CardPage.module.css";

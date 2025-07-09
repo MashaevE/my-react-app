@@ -1,0 +1,36 @@
+.notFoundPage__content{
+    font-family: "Proxima Nova", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notFoundPage__title{
+    font-size: 44px;
+    font-weight: 800;
+
+    color: #19e5e6;
+}
+
+.notFoundPage__description{
+    font-size: 20px;
+    font-weight: 700;
+
+    color: #2ed1d2;
+}
+
+.notFoundPage__button{
+    width: 150px;
+    height: 30px;
+
+    background: #008080;
+
+
+    border-radius: 15%;
+    border: none;
+}
+
+.notFoundPage__button-link{
+    text-decoration: none;
+    color: white;
+}
